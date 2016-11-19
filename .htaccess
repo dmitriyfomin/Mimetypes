@@ -1,0 +1,84 @@
+# Images
+AddType image/bmp .bmp .BMP
+AddType image/gif .gif .GIF
+AddType image/ief .ief .IEF
+AddType image/jpeg .jpg .JPG .jpe .JPE .jpeg .JPEG .jif .JIF .jfi .JFI .jfif .JFIF
+AddType image/png .png .PNG
+AddType image/tiff .tiff .TIFF .tif .TIF
+Addtype image/vnd.wap.wbmp .wbmp .WBMP
+AddType image/x-xbitmap .xbm .XBM
+AddType image/x-icon .ico .ICO
+AddType image/x-portable-anymap .pnm .PNM
+AddType image/x-portable-bitmap .pbm .PBM
+AddType image/x-portable-graymap .pgm .PGM
+AddType image/x-portable-pixmap .ppm .PPM
+AddType image/x-rgb .rgb .RGB
+AddType image/x-xpixmap .xpm .XPM
+AddType image/x-xwindowdump .xwd .XWD
+
+# Text
+Addtype text/calendar .ics .ICS
+AddType text/css .css .CSS
+AddType text/plain .txt .asc .TXT .ASC
+AddType text/html .html .htm .HTML .HTM
+AddType text/richtext .rtx .RTX
+AddType text/sgml .sgml .SGML .sgm .SGM
+Addtype text/vnd.sun.j2me.app-descriptor;charset=UTF-8 .jad .JAD
+Addtype text/x-vcalendar .vcs .VCS
+Addtype text/x-vcard .vcf .VCF
+Addtype text/x-vmel .mel .MEL .emy .EMY
+AddType text/xml .xml .XML
+
+# Audio
+Addtype audio/amr .amr .AMR
+Addtype audio/imelody .imy .IMY
+Addtype audio/midi .midi .MIDI .mid .MID
+AddType audio/mpeg .mpga .MPGA .mp2 .MP2 .mp3 .MP3
+Addtype audio/rmf .rmf .RMF
+AddType audio/wav .wav .WAV
+AddType audio/x-aiff .aif .AIF .aiff .AIFF .aifc .AIFC
+AddType audio/x-pn-realaudio .ram .RAM .rm .RM
+AddType audio/x-pn-realaudio-plugin .rpm .RPM
+AddType audio/x-realaudio .ra .RA
+
+# Video
+AddType video/3gpp .3gp .3GP
+Addtype video/mp4 .mp4 .MP4
+AddType video/mpeg .m1v .M1V .m2v .M2V .mpa .MPA .mpeg .MPEG .mpg .MPG .mpe .MPE
+AddType video/quicktime .qt .QT .mov .MOV
+AddType video/x-flv .flv .FLV
+AddType video/x-msvideo .avi .AVI
+AddType video/x-sgi-movie .movie .MOVIE
+
+# Flash
+AddType application/x-shockwave-flash .swf .SWF .swt .SWT
+
+# Archives
+Addtype application/x-gtar .gtar .GTAR
+Addtype application/x-rar-compressed .rar .RAR
+Addtype application/x-tar .tar .TAR
+Addtype application/x-zip-compressed .zip .ZIP
+
+# Electronic Books or other files
+AddType application/oda .oda .ODA
+AddType application/pdf .pdf .PDF
+
+# Microsoft Office
+AddType application/rtf .rtf .RTF
+AddType application/msword .doc .DOC
+AddType application/vnd.ms-excel .xls .XLS
+AddType application/vnd.ms-powerpoint .ppt .PPT
+
+# Mobile Apps
+Addtype application/vnd.eri.thm .thm
+Addtype application/vnd.mophun.application .mpn
+Addtype application/vnd.mophun.certificate .mpc
+Addtype application/vnd.sonyericsson.mms-template .tpl
+Addtype application/vnd.symbian.install .sis .SIS
+Addtype application/vnd.wap.mms-message .mms
+Addtype application/vnd.wap.wmlc .wmlc
+Addtype application/vnd.wap.wmlscriptc .wmlsc
+AddType model/vrml .wrl .vrml
+
+# Java
+Addtype application/java-archive .jar .JAR
