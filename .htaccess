@@ -8,6 +8,7 @@ AddType image/svg+xml .svg .SVG .svgz .SVGZ
 AddType image/tiff .tiff .TIFF .tif .TIF
 Addtype image/vnd.wap.wbmp .wbmp .WBMP
 AddType image/webp .webp .WEBP
+AddType image/x-djvu .djv .DJV .djvu .DJVU
 AddType image/x-emf .emf .EMF .emz .EMZ
 AddType image/x-icon .ico .ICO
 AddType image/x-pcx .pcx .PCX
@@ -69,11 +70,14 @@ Addtype application/x-tar .tar .TAR
 Addtype application/x-zip-compressed .zip .ZIP
 
 # Electronic Books or other files
+AddType application/epub+zip .epub .EPUB
 AddType application/oda .oda .ODA
 AddType application/pdf .pdf .PDF
+AddType application/x-fictionbook .fb2 .FB2
+AddType application/x-mobipocket-ebook .mobi .MOBI
 
 # Microsoft Office
-AddType application/msword .doc .DOC
+AddType application/msword .doc .DOC .wiz .WIZ .wzs .WZS
 AddType application/rtf .rtf .RTF
 AddType application/vnd.ms-excel .xls .XLS
 AddType application/vnd.ms-excel.addin.macroEnabled.12 .xlam .XLAM
