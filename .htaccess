@@ -2,7 +2,10 @@
 AddType image/bmp .bmp .BMP
 AddType image/gif .gif .GIF
 AddType image/ief .ief .IEF
+AddType image/jp2 .jp2 .JP2 .j2k .J2K
 AddType image/jpeg .jpg .JPG .jpe .JPE .jpeg .JPEG .jif .JIF .jfi .JFI .jfif .JFIF
+AddType image/jpm .jpm .JPM
+AddType image/jpx .jpx .JPX .jpf .JPF
 AddType image/png .png .PNG
 AddType image/svg+xml .svg .SVG .svgz .SVGZ
 AddType image/tiff .tiff .TIFF .tif .TIF
@@ -11,6 +14,7 @@ AddType image/webp .webp .WEBP
 AddType image/x-djvu .djv .DJV .djvu .DJVU
 AddType image/x-emf .emf .EMF .emz .EMZ
 AddType image/x-icon .ico .ICO
+AddType image/x-macpaint .pnt .PNT .pntg .PNTG .mac .MAC
 AddType image/x-pcx .pcx .PCX
 AddType image/x-portable-anymap .pnm .PNM
 AddType image/x-portable-bitmap .pbm .PBM
@@ -32,7 +36,7 @@ AddType text/richtext .rtx .RTX
 AddType text/sgml .sgml .SGML .sgm .SGM
 Addtype text/vnd.sun.j2me.app-descriptor;charset=UTF-8 .jad .JAD
 Addtype text/x-vcalendar .vcs .VCS
-Addtype text/x-vcard .vcf .VCF
+Addtype text/x-vcard .vcf .VCF .vcard .VCARD
 Addtype text/x-vmel .mel .MEL .emy .EMY
 AddType text/xml .xml .XML
 
@@ -44,6 +48,7 @@ Addtype audio/midi .midi .MIDI .mid .MID
 AddType audio/mpeg .mpga .MPGA .mp2 .MP2 .mp3 .MP3
 Addtype audio/rmf .rmf .RMF
 AddType audio/x-aiff .aif .AIF .aiff .AIFF .aifc .AIFC
+AddType audeo/x-matroska .mka .MKA
 AddType audio/x-ms-wma .wma .WMA
 AddType audio/x-ogg .ogg .OGG
 AddType audio/x-pn-realaudio .ram .RAM .rm .RM
@@ -53,10 +58,14 @@ AddType audio/x-wav .wav .WAV
 
 # Video
 AddType video/3gpp .3gp .3GP
+AddType video/asf .asf .ASF .asx .ASX .wax .WAX
 Addtype video/mp4 .mp4 .MP4
 AddType video/mpeg .m1v .M1V .m2v .M2V .mpa .MPA .mpeg .MPEG .mpg .MPG .mpe .MPE
 AddType video/quicktime .qt .QT .mov .MOV
+AddType video/webm .webm .WEBM
 AddType video/x-flv .flv .FLV
+AddType video/x-matroska .mkv .MKV .mks .MKS
+AddType video/x-ms-wmv .wmv .WMV .wmx .WMX
 AddType video/x-msvideo .avi .AVI
 AddType video/x-sgi-movie .movie .MOVIE
 
@@ -79,17 +88,26 @@ AddType application/x-mobipocket-ebook .mobi .MOBI
 # Microsoft Office
 AddType application/msword .doc .DOC .wiz .WIZ .wzs .WZS
 AddType application/rtf .rtf .RTF
-AddType application/vnd.ms-excel .xls .XLS
+AddType application/vnd.ms-excel .xls .XLS .xla .XLA .xlt .XLT .xlw .XLW
 AddType application/vnd.ms-excel.addin.macroEnabled.12 .xlam .XLAM
 AddType application/vnd.ms-excel.sheet.binary.macroEnabled.12 .xlsb .XLSB
 AddType application/vnd.ms-excel.sheet.macroEnabled.12 .xlsm .XLSM
 AddType application/vnd.ms-excel.template.macroEnabled.12 .xltm .XLTM
-AddType application/vnd.ms-powerpoint .ppt .PPT
+AddType application/vnd.ms-powerpoint .ppt .PPT .pot .POT .pps .PPS
 AddType application/vnd.ms-powerpoint.addin.macroEnabled.12 .ppam .PPAM
 AddType application/vnd.ms-powerpoint.presentation.macroEnabled.12 .pptm .PPTM
 AddType application/vnd.ms-powerpoint.slideshow.macroEnabled.12 .ppsm .PPSM
 AddType application/vnd.ms-powerpoint.template.macroEnabled.12 .potm .POTM
+AddType application/vnd.ms-project .mpp .MPP
 AddType application/vnd.ms-word.document.macroEnabled.12 .docm .DOCM
+AddType application/vnd.ms-write .wri .WRI
+AddType application/vnd.oasis.opendocument.chart .odc .ODC
+AddType application/vnd.oasis.opendocument.database .odb .ODB
+AddType application/vnd.oasis.opendocument.formula .odf .ODF
+AddType application/vnd.oasis.opendocument.graphics .odg .ODG
+AddType application/vnd.oasis.opendocument.presentation .odp .ODP
+AddType application/vnd.oasis.opendocument.spreadsheet .ods .ODS
+AddType application/vnd.oasis.opendocument.text .odt .ODT
 AddType application/vnd.openxmlformats-officedocument.presentationml.presentation .pptx .PPTX
 AddType application/vnd.openxmlformats-officedocument.presentationml.slideshow .ppsx .PPSX
 AddType application/vnd.openxmlformats-officedocument.spreadsheetml.sheet .xlsx .XLSX
@@ -111,3 +129,12 @@ AddType model/vrml .wrl .vrml
 
 # Java
 Addtype application/java-archive .jar .JAR
+
+# Fonts
+AddType application/x-font-ghostscript .gsf .GSF
+AddType application/x-font-linux-psf .psf .PSF
+AddType application/x-font-otf .otf .OTF
+AddType application/x-font-pcf .pcf .PCF
+AddType application/x-font-snf .snf .SNF
+AddType application/x-font-ttf .ttf .TTF .ttc .TTC
+AddType application/x-font-type1 .pfa .PFA .pfb .PFB .pfm .PFM .afm .AFM
