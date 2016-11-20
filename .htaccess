@@ -30,8 +30,8 @@ AddType image/x-xwindowdump .xwd .XWD
 # Text
 Addtype text/calendar .ics .ICS
 AddType text/css .css .CSS
-AddType text/plain .txt .asc .TXT .ASC
 AddType text/html .html .htm .HTML .HTM
+AddType text/java-source .java
 AddType text/richtext .rtx .RTX
 AddType text/sgml .sgml .SGML .sgm .SGM
 Addtype text/vnd.sun.j2me.app-descriptor;charset=UTF-8 .jad .JAD
@@ -72,11 +72,28 @@ AddType video/x-sgi-movie .movie .MOVIE
 # Flash
 AddType application/x-shockwave-flash .swf .SWF .swt .SWT
 
-# Archives
+# Archives & packages
+Addtype application/java-archive .jar .JAR
+AddType application/vnd.ms-cab-compressed .cab .CAB
+AddType application/x-7z-compressed .7z .7Z
+AddType application/x-apple-diskimage .dmg .DMG .smi .SMI .img .IMG
+AddType application/x-cfs-compressed .cfs .CFS
+AddType application/x-compress .z .Z .taz .TAZ
+AddType application/x-dar .dar .DAR
+AddType application/x-debian-package .deb .DEB .udeb .UDEB
 Addtype application/x-gtar .gtar .GTAR
-Addtype application/x-rar-compressed .rar .RAR
+AddType application/x-gzip .gz .GZ .tgz .TGZ
+AddType application/x-iso9660-image .iso .ISO
+AddType application/x-lzh-compressed .lha .LHA .lzh .LZH
+AddType application/x-lzip .lz .LZ
+AddType application/x-lzma .lzma .LZMA .tlz .TLZ
+AddType application/x-lzx .lzx .LZX
+Addtype application/x-rar-compressed .rar .RAR .rev .REV .r00 .R00 .r01 .R01 .r02 .R02 .r03 .R03 .r04 .R04 .r05 .R05
+AddType application/x-stuffit .sit .SIT
+AddType application/x-stuffitx .sitx .SITX
 Addtype application/x-tar .tar .TAR
-Addtype application/x-zip-compressed .zip .ZIP
+AddType application/x-xz .xz .XZ .txz .TXZ
+Addtype application/x-zip-compressed .zip .ZIP .zipx .ZIPX
 
 # Electronic Books or other files
 AddType application/epub+zip .epub .EPUB
@@ -85,7 +102,15 @@ AddType application/pdf .pdf .PDF
 AddType application/x-fictionbook .fb2 .FB2
 AddType application/x-mobipocket-ebook .mobi .MOBI
 
-# Microsoft Office
+# Torrent
+AddType application/x-bittorrent .torrent .TORRENT
+
+# Windows, MacOS & Linux
+AddType application/octet-stream .bin .BIN .dms .DMS .lrf .LRF .so .SO .o .O .elf .ELF .dist .DIST .distz .DISTZ .pkg .PKG .bpk .BPK .dump .DUMP .elc .ELC .deploy .DEPLOY
+AddType application/x-ms-manifest .manifest .MANIFEST
+AddType application/x-msdownload .exe .EXE .dll .DLL .ocx .OCX .com .COM .bat .BAT .msi .MSI .mso .MSO
+
+# Microsoft Office, OpenOffice.org, StarOffice
 AddType application/msword .doc .DOC .wiz .WIZ .wzs .WZS
 AddType application/rtf .rtf .RTF
 AddType application/vnd.ms-excel .xls .XLS .xla .XLA .xlt .XLT .xlw .XLW
@@ -117,6 +142,7 @@ AddType application/vnd.openxmlformats-officedocument.wordprocessingml.document 
 AddType application/vnd.openxmlformats-officedocument.wordprocessingml.template .dotx .DOTX
 
 # Mobile Apps
+AddType application/vnd.android.package-archive .apk
 Addtype application/vnd.eri.thm .thm
 Addtype application/vnd.mophun.application .mpn
 Addtype application/vnd.mophun.certificate .mpc
@@ -128,7 +154,9 @@ Addtype application/vnd.wap.wmlscriptc .wmlsc
 AddType model/vrml .wrl .vrml
 
 # Java
-Addtype application/java-archive .jar .JAR
+AddType application/java-serialized-object .ser .SER
+AddType application/java-vm .class
+AddType application/x-java-jnlp-file .jnlp .JNLP
 
 # Fonts
 AddType application/x-font-ghostscript .gsf .GSF
