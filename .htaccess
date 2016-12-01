@@ -166,6 +166,7 @@ AddType application/java-vm .class
 AddType application/x-java-jnlp-file .jnlp .JNLP
 
 # Fonts
+AddType application/x-font-eot .eot .EOT
 AddType application/x-font-ghostscript .gsf .GSF
 AddType application/x-font-linux-psf .psf .PSF
 AddType application/x-font-otf .otf .OTF
@@ -173,3 +174,4 @@ AddType application/x-font-pcf .pcf .PCF
 AddType application/x-font-snf .snf .SNF
 AddType application/x-font-ttf .ttf .TTF .ttc .TTC
 AddType application/x-font-type1 .pfa .PFA .pfb .PFB .pfm .PFM .afm .AFM
+AddType application/x-font-woff .woff .WOFF
